@@ -1,7 +1,4 @@
-.card {
-    display: flex;
-  }
- 
+
   *{
     margin: 0;
     padding: 0;
@@ -24,8 +21,8 @@ body{
 
 .card{
     position: relative;
-    width: 1500px;
-    height: 350px;
+    width: 750px;
+    height: 450px;
     margin: 10px;
 }
 
@@ -61,7 +58,7 @@ body{
     text-align: center;
 }
 .card .back {
-    transform: perspective(600px)rotateY(180deg);
+    transform: perspective(600px)rotateX(180deg);
     background-color: black;
     padding: 15px;
     color: rgb(255, 255, 255);
@@ -86,8 +83,8 @@ body{
     letter-spacing: 1px;
 }
 .card :hover .front{
-    transform: perspective(600px) rotateY(180deg);
+    transform: perspective(600px) rotateX(180deg);
 }
 .card :hover .back{
-    transform: perspective(600px) rotateY(360deg);
+    transform: perspective(600px) rotateX(360deg);
 }
